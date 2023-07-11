@@ -817,7 +817,6 @@ body {
    .intro__buttons {
        display: flex;
        justify-content: space-between;
-       margin: 0 30px;
    }
 
 
