@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Фотоблог</title>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:200,300,300i,400,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="header__inner">
+    
+                <div class="user">
+                    <div class="user__avatar">
+                        <img class="logo" src="img/306214.svg" alt="">
+                    </div>
+                </div>
+    
+                <nav class="nav">
+                    <div class="nav__link_item">
+                        <a class="nav__link" href="index.html">Про песиків</a>
+                        <a class="nav__link nav__active" href="photo.html">Фотоблог</a>
+                        <a class="nav__link" href="friends.html">Познайомитись</a>
+                    </div>
+                </nav>
+                <div class="nav__btn">
+    
+                    <a class="nav__link nav__btn--link nav__link--tell" href="tel:+380965754711">+38 096 575 47 11</a>
+    
+                    <a class="nav__btn--link nav__link--btn" target="_blank"
+                        href="https://send.monobank.ua/jar/A7ySi1XLUN">Підтримати</a>
+    
+                </div>
+   
+            </div>
+        </div>
+    </header>
+
+    <div class="works">
+        <div class="container">
+            <div class="portfolio__title">
+                <h1 class="intro__title">Фотоблог</h1>
+                <div class="">
+                    <div class="intro__text">Події які стались завдяки внескам небайдужих людей</div>
+                </div>
+                <div class="portfolio" id="portfolio">
+    
+                    <div class="portfolio__col" data-cat="app">
+                        <div class="work" data-modal="#modal_project_1">
+                            <img class="work__image" src="img/photo11.png" alt="">
+                            <div class="work__content">
+                                <div class="work__cat">10.10.2023</div>
+                                <div class="work__title">
+                                    Лікування
+                                    <time class="work__date" datetime="2019-11-22 19:00">7 000 ₴</time>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+    
+                    <div class="portfolio__col" data-cat="app">
+                        <div class="work" data-modal="#modal_project_1">
+                            <img class="work__image" src="img/photo11.png" alt="">
+                            <div class="work__content">
+                                <div class="work__cat">10.10.2023</div>
+                                <div class="work__title">
+                                    Щеплення
+                                    <time class="work__date" datetime="2019-11-22 19:00">5 000 ₴</time>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="portfolio__col" data-cat="app">
+                        <div class="work" data-modal="#modal_project_1">
+                            <img class="work__image" src="img/photo11.png" alt="">
+                            <div class="work__content">
+                                <div class="work__cat">10.10.2023</div>
+                                <div class="work__title">
+                                    Щеплення
+                                    <time class="work__date" datetime="2019-11-22 19:00">5 000 ₴</time>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="portfolio__col" data-cat="app">
+                        <div class="work" data-modal="#modal_project_1">
+                            <img class="work__image" src="img/photo11.png" alt="">
+                            <div class="work__content">
+                                <div class="work__cat">10.10.2023</div>
+                                <div class="work__title">
+                                    Лікування
+                                    <time class="work__date" datetime="2019-11-22 19:00">7 000 ₴</time>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="portfolio__col" data-cat="app">
+                        <div class="work" data-modal="#modal_project_1">
+                            <img class="work__image" src="img/photo11.png" alt="">
+                            <div class="work__content">
+                                <div class="work__cat">10.10.2023</div>
+                                <div class="work__title">
+                                    Лікування
+                                    <time class="work__date" datetime="2019-11-22 19:00">7 000 ₴</time>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="portfolio__col" data-cat="app">
+                        <div class="work" data-modal="#modal_project_1">
+                            <img class="work__image" src="img/photo11.png" alt="">
+                            <div class="work__content">
+                                <div class="work__cat">10.10.2023</div>
+                                <div class="work__title">
+                                    Лікування
+                                    <time class="work__date" datetime="2019-11-22 19:00">7 000 ₴</time>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+    
+    
+    
+                </div><!-- /.portfolio -->
+            </div><!-- /.container -->
+        </div><!-- /.works -->
+
+
+
+
+        <!-- Modals -->
+        <div class="modal" id="modal_project_1">
+            <div class="modal__dialog">
+        
+                <button class="modal__close" type="button" data-close>
+                    <img src="img/modal-close.svg" alt="Close">
+                </button>
+        
+                <div class="modal-work">
+        
+                    <div class="modal-work__preview">
+                        <div data-slider="slick">
+                            <div>
+                                <img class="modal-work__photo" src="img/photo11.png" alt="">
+                            </div>
+                            <div>
+                                <img class="modal-work__photo" src="img/photo12.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+        
+                    <div class="modal-work__content">
+        
+                        <div class="modal-work__header">
+                            <h3 class="modal-work__title">Лікування</h3>
+                            <div class="modal-work__info">
+                                10.10.2022 <span class="modal-work__info-divider">|</span> 7 000 ₴
+                            </div>
+                        </div>
+        
+                        <div class="modal-work__text">
+                            <p>Потрібно написати буквально два речення по темі і підібрати по два фото</p>
+                            <p>В даному випадку де, як і яку хворобу лікували, чому це важливо тощо</p>
+        
+                        </div>
+        
+                        <div class="modal-work__footer">
+                            <button class="modal-work__btn slickPrev" type="button">
+                                <img src="images/back.svg" height="11" alt="">
+                                Назад
+                            </button>
+                            <button class="modal-work__btn slickNext" type="button">
+                                Далі
+                                <img src="images/next.svg" height="11" alt="">
+                            </button>
+                        </div>
+        
+                    </div><!-- /.modal-work__content -->
+                </div>
+                <!--/.modal-work -->
+        
+            </div><!-- /.modal__dialog -->
+        </div><!-- /.modal -->
+
+
+        <script src="js/slick.min.js"></script>
+        <script src="js/app.js"></script>
+</body>
+</html>
